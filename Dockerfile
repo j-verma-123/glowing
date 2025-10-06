@@ -3,6 +3,7 @@ FROM nginx:alpine
 
 # Copy website files to nginx html directory
 COPY index.html /usr/share/nginx/html/
+COPY product.html /usr/share/nginx/html/
 COPY assets/ /usr/share/nginx/html/assets/
 COPY favicon.svg /usr/share/nginx/html/
 
